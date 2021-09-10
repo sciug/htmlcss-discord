@@ -278,7 +278,11 @@
 
 .footer_wrapper{
     padding:3rem 0;
+    
 }
+
+.border{border-bottom: 1px solid #7289da;}
+
 
 .footer-col-social h4{
     color: #7289da;
@@ -350,4 +354,29 @@
 .lingua a, .footer-col ul li a, .footer-col-social ul li a {
     color: white;
     text-decoration: none;
+}
+
+
+.footer_float{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+.footer_float a{
+    vertical-align: -webkit-baseline-middle;
+}
+
+.sign-up-btn{
+    color:white;
+    background-color:#7289da;
+    padding: .5em 1em;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: .9rem;
+    font-weight: 500;
+
 }

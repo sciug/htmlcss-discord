@@ -156,6 +156,10 @@
     color: white;
 }
 
+/*  MAIN - HERO-sec- buttons */
+
+
+
 .buttons{
     display: inline-block;
     margin-top: 2rem;
@@ -175,18 +179,11 @@
 }
 
 
+
 .btn:hover, .btn:focus{
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
     color: #5865f2;
 
-}
-
-
-
-
-.fas{
-    margin-right: .5rem;
-    font-size: 1.1rem;
 }
 
 .btn_modifier{
@@ -199,6 +196,16 @@
     background-color: #313436;
     color: white;
 }
+
+
+/*  MAIN - HERO-sec - download icon */
+
+
+.fas{
+    margin-right: .5rem;
+    font-size: 1.1rem;
+}
+
 
 /* MAIN - content-sec */
 
@@ -250,12 +257,21 @@
 }
 
 
+/* MAIN - content_ sec - second image */
+
+
+
 #site_main .content_sec:nth-last-child(2) .content_sec_wrapper .col img {
     height: auto;
 }
 
 
+/* MAIN - content_ sec - second image */
 
+
+
+
+/* MAIN - BIG SEC */
 
 
 
@@ -294,6 +310,13 @@
 .call_to_action .btn .fas{
     color: white;
 }
+
+/* MAIN - BIG SEC */
+
+
+
+
+
 
 
 
@@ -336,6 +359,7 @@
     width: 15%;
 
 }
+
 
 .lingua{
     margin-top: 2rem;

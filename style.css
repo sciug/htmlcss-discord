@@ -380,11 +380,21 @@
 }
 
 
+
+
 .lingua a, .footer-col ul li a, .footer-col-social ul li a {
     color: white;
     text-decoration: none;
 }
 
+.footer-col ul li a{
+    transition: all 250ms;
+}
+
+.footer-col ul li a:hover{
+    text-decoration: underline;
+
+}
 
 .footer_float{
     float: left;

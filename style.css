@@ -496,7 +496,7 @@
 
 
 
-
+/* background waves */
 
 
 
@@ -521,8 +521,9 @@
     height: 100px; 
    
 }
+/* background waves */
 
-
+/* STARS */
 
 
 .star-container{position: relative;
@@ -534,3 +535,5 @@ margin:0 auto}
     top: -30px;
     left: -80%;
 }
+
+/* STARS */

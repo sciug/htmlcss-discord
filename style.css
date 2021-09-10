@@ -118,7 +118,7 @@
 /* MAIN - HERO-sec */
 
 .hero_sec{
-    background-image: url(../img/jumbo.png);
+    background-image: url(./img/jumbo.png);
     filter: grayscale(.1);
     background-size:cover;
     background-position: top;
@@ -181,6 +181,7 @@
 
 .content_sec{
     margin-top:15rem;
+    padding-bottom: 15rem;
 }
 
 
@@ -379,4 +380,16 @@
     font-size: .9rem;
     font-weight: 500;
 
+}
+
+
+
+
+
+.background{
+    background-image: url(./img/wave.svg);
+    background-repeat:no-repeat;
+    background-size: 100% 20%;
+    background-position: bottom;
+    
 }

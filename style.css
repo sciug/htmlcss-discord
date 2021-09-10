@@ -32,6 +32,8 @@
     top: 0;
     left: 0;
     z-index: 100000;
+    background-color:#3567e1;
+    height: 80px;
 }
 
 
@@ -86,7 +88,7 @@
 
 
 
-.logo-img{width: 55%;}
+.logo-img{width: 50%;}
 
 
 .logo, .log-in{
@@ -125,11 +127,12 @@
 /* MAIN - HERO-sec */
 
 .hero_sec{
+    margin-top: 80px;
     background-image: url(./img/jumbo.png);
-    filter: grayscale(.1);
+    filter: grayscale(.2) brightness(1.1);
     background-size:cover;
     background-position: top;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 10rem;
     max-width: 100%;
 }
@@ -175,6 +178,7 @@
     letter-spacing: .5px;
     border-radius: 50px;
     transition: all 250ms;
+    font-size: 1.2rem;
 
 }
 

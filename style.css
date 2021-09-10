@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+    color: #23272a;}
 
 
 
@@ -225,6 +226,10 @@
 }
 
 
+
+
+
+
 .big-sec{
     text-align: center;
 }
@@ -235,4 +240,17 @@
 }
 .big_sec_img img{
     width: 100%;
+}
+
+.call_to_action h3{
+    font-size:1.8rem;
+    margin-bottom: 2rem;
+}
+
+.call_to_action .btn{
+    background-color: #8ea1e1;
+    color: white;
+}
+.call_to_action .btn .fas{
+    color: white;
 }

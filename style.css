@@ -415,3 +415,14 @@
 .background{
     background-color: #f0f0f0;
 }
+
+
+.star-container{position: relative;
+height: 10px;
+width:200px;
+margin:0 auto}
+.stars{
+    position: absolute;
+    top: -30px;
+    left: -80%;
+}

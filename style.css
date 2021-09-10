@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #23272a;}
+ }
 
 
 
@@ -129,7 +129,6 @@
 
 .hero_sec_content{
     text-align: center;
-    color: white;
     width: 47%;
     margin: 0 auto;
 }
@@ -137,12 +136,17 @@
     font-size: 3.3rem;
     letter-spacing: 1px;
     margin-bottom: 2.7rem;
+    color: white;
+
+    
+
 }
 
 .hero_sec_content p{
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
+    color: white;
 }
 
 .buttons{
@@ -234,9 +238,14 @@
     text-align: center;
 }
 
+.big-sec .col_text h2, .big-sec .col_text p{
+    color: #23272a;
+}
+
+
 .big-sec  .content_sec_wrapper .col_text{
     width:100%;
-    ;
+  ;
 }
 .big_sec_img img{
     width: 100%;
@@ -244,7 +253,8 @@
 
 .call_to_action h3{
     font-size:1.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.3rem;
+    color: #23272a;
 }
 
 .call_to_action .btn{
@@ -254,3 +264,25 @@
 .call_to_action .btn .fas{
     color: white;
 }
+
+
+
+/* FOOTER */
+
+#site_footer{
+    background-color: #23272a;
+    color: white;
+    margin-top:8rem;
+}
+
+
+.footer_wrapper{
+    padding:3rem 0;
+}
+
+.footer-col h4{
+    color: #8ea1e1;
+    font-size:2rem;
+}
+
+.lingua, .lingua .fas{color: white;}

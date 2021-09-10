@@ -20,22 +20,40 @@
 
 
 
-
+/* HEADER */
 
 
 
 #site_header{
-    background-color: #3161e0;
     padding: 1.5rem 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100000;
 }
 
 
-.header_wrapper{
-    width:70%;
+
+.margin{
     margin: 0 auto;
+    width:70%;
+
 
 }
 
+
+/* HEADER - nav */
+
+
+
+
+.nav{
+    width: 60%;
+    text-align: center;
+    letter-spacing: .5px;
+
+}
 
 .nav-list{
     list-style: none;
@@ -56,6 +74,16 @@
     font-weight: 500;
     letter-spacing: .5px;
 }
+
+
+/* HEADER - nav */
+
+
+
+/* HEADER - logo and log in */
+
+
+
 
 .logo-img{width: 55%;}
 
@@ -80,10 +108,40 @@
 
 }
 
+/* HEADER */
 
-.nav{
-    width: 60%;
+
+
+
+
+/* MAIN - HERO-sec */
+
+.hero_sec{
+    background-image: url(../img/jumbo.png);
+    filter: grayscale(.1);
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.hero_sec_content{
     text-align: center;
-    letter-spacing: .5px;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+.hero_sec_content h1{
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+}
 
+.hero_sec_content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.buttons{
+    display: inline-block;
 }

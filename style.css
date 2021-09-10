@@ -174,8 +174,13 @@
 
 /* MAIN - content-sec */
 
+.content_sec{
+    margin-top:15rem;
+}
+
+
 .content_sec_wrapper{
-    margin: 10rem auto;
+    margin: 0 auto;
     width:70%;
 
 }
@@ -209,10 +214,25 @@
 .col_text p{
     margin-top: 3rem;
     line-height: 1.8rem;
+    font-weight: 500;
+
 
 }
 
 
-#site_main .content_sec:last-child .content_sec_wrapper .col img {
+#site_main .content_sec:nth-last-child(2) .content_sec_wrapper .col img {
     height: auto;
+}
+
+
+.big-sec{
+    text-align: center;
+}
+
+.big-sec  .content_sec_wrapper .col_text{
+    width:100%;
+    ;
+}
+.big_sec_img img{
+    width: 100%;
 }

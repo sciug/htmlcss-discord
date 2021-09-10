@@ -106,8 +106,15 @@
     border-radius: 100px;
     font-size: .9rem;
     font-weight: 500;
+    transition: box-shadow 250ms;
 
 }
+
+.log-in-btn:hover, .log-in-btn:focus{
+    box-shadow: -6px 7px 17px #292929a6;
+}
+
+
 
 /* HEADER */
 
@@ -163,8 +170,19 @@
     font-weight: 500;
     letter-spacing: .5px;
     border-radius: 50px;
+    transition: all 250ms;
 
 }
+
+
+.btn:hover, .btn:focus{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    color: #5865f2;
+
+}
+
+
+
 
 .fas{
     margin-right: .5rem;
@@ -176,6 +194,11 @@
     color: #fff;
 }
 
+.btn_modifier:hover, .btn_modifier:focus{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    background-color: #313436;
+    color: white;
+}
 
 /* MAIN - content-sec */
 

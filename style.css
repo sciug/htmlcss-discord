@@ -119,21 +119,23 @@
 .hero_sec{
     background-image: url(../img/jumbo.png);
     filter: grayscale(.1);
-    background-size: cover;
+    background-size:cover;
+    background-position: top;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    max-width: 100%;
 }
 
 .hero_sec_content{
     text-align: center;
     color: white;
-    width: 50%;
+    width: 47%;
     margin: 0 auto;
 }
 .hero_sec_content h1{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     letter-spacing: 1px;
-    margin-bottom: 3rem;
+    margin-bottom: 2.7rem;
 }
 
 .hero_sec_content p{
@@ -144,4 +146,27 @@
 
 .buttons{
     display: inline-block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.btn{
+    background-color: white;
+    color: #23272a;
+    text-decoration: none;
+    padding: .8rem 1.3rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border-radius: 50px;
+
+}
+
+.fas{
+    margin-right: .5rem;
+    font-size: 1.1rem;
+}
+
+.btn_modifier{
+    background-color: #23272a;
+    color: #fff;
 }

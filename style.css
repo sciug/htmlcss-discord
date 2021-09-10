@@ -191,9 +191,15 @@
 
 .col_text{
     width: 32%;
-    margin-left: 10rem;
     color: #23272a;
 }
+
+.margin_col{
+    margin-left: 10rem;
+}
+
+
+
 .col_text h2{
     font-size: 3rem;
     line-height: 3.5rem;
@@ -204,4 +210,9 @@
     margin-top: 3rem;
     line-height: 1.8rem;
 
+}
+
+
+#site_main .content_sec:last-child .content_sec_wrapper .col img {
+    height: auto;
 }
